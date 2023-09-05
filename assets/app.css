@@ -1,0 +1,118 @@
+body {
+    background: #f4f4f4;
+    color: #545454;
+    font-size: 12px;
+}
+
+.navbar {
+    box-shadow: 0 0.1rem 0.1rem rgb(149 149 149 / 20%);
+}
+
+.breadcrumb a {
+    color: #545454;
+    text-decoration: none;
+}
+
+#active-voucher {
+    border: none;
+    background-color: #fff;
+    margin-bottom: 15px;
+    box-shadow: #e2e2e2 0 3px !important;
+    border-radius: 3px;
+    font-size: 1.05rem;
+}
+
+#active-voucher li{
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    cursor: pointer;
+    transition: all ease-in .3s;
+    padding: 15px ;
+}
+
+#active-voucher li:hover{
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    background-color: #effcff;
+}
+
+#active-voucher .title {
+
+    font-size: 15px;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+.voucher-type {
+    display: inline-block;
+    padding: 5px 10px;
+    background: green;
+    margin-right: 15px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 12px;
+    width: 80px;
+    text-align: center;
+}
+
+.merchant-long_desc,
+.widget-voucher_stats,
+.widget-related_vouchers {
+    box-shadow: #e2e2e2 0 3px !important;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.widget-related_vouchers a{
+    text-decoration: none;
+    color: #545454;
+    
+}
+
+.widget-related_vouchers li {
+    padding: 5px 0px;
+}
+
+.inner {
+    box-shadow: #e2e2e2 0 3px !important;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.outer {
+    margin-bottom: 15px;
+}
+
+.inner a, footer a  {
+    text-decoration: none;
+    color: #545454;
+}
+
+.inner .img {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    padding: 5px;
+}
+
+span.name, span.voucher {
+    display: block;
+    text-align: center;
+}
+
+
+.inner .img img{
+    max-height: 80px;
+
+}
+
+.footer-disclaimer:before {
+    content: 'Alle Gutschein-Rechte unterliegen dem jeweiligen Anbieter. Alle Angaben ohne Gewähr.';
+}
+
+.store-rating i {
+    color: #f0a600;
+    font-size: 16px;
+}
+
